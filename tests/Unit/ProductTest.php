@@ -2,9 +2,12 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+use App\Models\Product;
+use App\Models\Retailer;
+use App\Models\Stock;
+use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class ProductTest extends TestCase
 {
     /**
      * A basic test example.
